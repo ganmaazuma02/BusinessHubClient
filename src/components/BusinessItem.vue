@@ -8,9 +8,9 @@
       tag="article"
       class="mb-4"
     >
-      <b-card-text>{{business.summary}}</b-card-text>
+      <b-card-text>{{business.description}}</b-card-text>
 
-      <b-button href="#" variant="primary">{{business.guid}}</b-button>
+      <b-button :href="business.href" variant="primary">More Info</b-button>
     </b-card>
   </b-col>
 </template>
